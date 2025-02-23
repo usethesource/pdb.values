@@ -39,7 +39,6 @@ import io.usethesource.vallang.ISetWriter;
 import io.usethesource.vallang.ITuple;
 import io.usethesource.vallang.IValue;
 import io.usethesource.vallang.type.Type;
-import io.usethesource.vallang.type.TypeFactory;
 import io.usethesource.vallang.util.AbstractTypeBag;
 
 /**

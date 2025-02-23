@@ -13,5 +13,8 @@
 package io.usethesource.vallang;
 
 public interface ISetWriter extends IWriter<ISet> {
-
+    @Override
+    default ISetWriter unique() {
+        return (ISetWriter) IWriter.super.unique();
+    }
 }

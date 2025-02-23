@@ -268,7 +268,7 @@ public class FunctionType extends DefaultSubtypeOfValue {
         // For example, an overloadeded function `X f(int) + X f(str)` is substitutable at high-order parameter positions of type `X (int)`
         // even though its function type is `X (value)`. Rascal's type system does not check completeness of function definitions,
         // only _possible_ applicability in this manner. Every function may throw `CallFailed` at run-time
-        // if non of their arguments match for none of their alternatives.
+        // if non of their aguments match for none of their alternatives.
 
         FunctionType otherType = (FunctionType) other;
 

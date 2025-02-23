@@ -23,6 +23,11 @@ import io.usethesource.vallang.exceptions.FactTypeUseException;
  */
 public interface IListWriter extends IWriter<IList> {
 
+    @Override
+    public default IListWriter unique() {
+        return (IListWriter) IWriter.super.unique();
+    }
+
     /**
      * Inserts elements at a specific position, keeping the argument in order of appearance.
      *

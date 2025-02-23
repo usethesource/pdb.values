@@ -55,7 +55,7 @@ import io.usethesource.vallang.type.TypeFactory;
     }
 
     @Override
-    public IWriter<IList> unique() {
+    public IListWriter unique() {
         return new ListWriter(true);
     }
 
